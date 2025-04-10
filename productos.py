@@ -12,7 +12,7 @@ class Pan(Producto):
         self.tipo_masa = tipo_masa
     
     def __str__(self):
-        return f"🍞 {super().__str__()} | Masa: {self.tipo_masa}"
+        return f" {super().__str__()} | Masa: {self.tipo_masa}"
 
 class Pastel(Producto):
     def __init__(self, nombre, precio, relleno):
@@ -20,4 +20,4 @@ class Pastel(Producto):
         self.relleno = relleno
     
     def __str__(self):
-        return f"🎂 {super().__str__()} | Relleno: {self.relleno}"
+        return f" {super().__str__()} | Relleno: {self.relleno}"
